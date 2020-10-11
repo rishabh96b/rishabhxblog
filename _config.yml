@@ -1,4 +1,4 @@
-title: rishabhxblog
+title: Rishabh's Blog
 email: rishabhbohra01@gmail.com
 #TODO
 description: >- # this means to ignore newlines until "baseurl:" 
@@ -11,10 +11,30 @@ twitter_username: rishxbhbohra
 github_username:  rishabh96b
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
+search: true
+author:
+  name: "Rishabh Bohra"
+  avatar: "/assets/images/bio-img.jpeg"
+  bio: "Software Engineer, Tinkerer, Internet Citizen and Traveller" # Note: Markdown is allowed
+  location: "Internet"
+  links:
+    - label: "Medium"
+      icon: "fab fa-fw fa-medium"
+      url: "https://rishabhbohra.me"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/rishxbhbohra"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/rishabh96b"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/rishabhxbohra"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
