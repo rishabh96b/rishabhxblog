@@ -1,7 +1,7 @@
-_site
+#_site
 .idea
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
+#.sass-cache
+#.jekyll-cache
+#.jekyll-metadata
 .notes.md
 vendor
